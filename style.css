@@ -1,0 +1,41 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(38deg, #2F2325 0%, #8E5D52 100%);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+}
+
+.itens-menu{
+    display: flex;
+    gap: 20px;
+    color:white;
+}
+
+.cabecalho-menu-item{
+    color: #FFF2E7;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-box-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
